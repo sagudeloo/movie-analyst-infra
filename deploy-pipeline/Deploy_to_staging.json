@@ -1,0 +1,274 @@
+{
+  "source": 2,
+  "revision": 7,
+  "description": null,
+  "createdBy": {
+    "displayName": "Colombia 4.0",
+    "url": "https://spsprodcus5.vssps.visualstudio.com/A83f42fae-64e2-454e-9521-648075b4db5f/_apis/Identities/47841efa-8005-6a7b-abfc-38b44ab90eb1",
+    "_links": {
+      "avatar": {
+        "href": "https://dev.azure.com/colombia40/_apis/GraphProfile/MemberAvatars/msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx"
+      }
+    },
+    "id": "47841efa-8005-6a7b-abfc-38b44ab90eb1",
+    "uniqueName": "eventopraxis@outlook.com",
+    "imageUrl": "https://dev.azure.com/colombia40/_apis/GraphProfile/MemberAvatars/msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx",
+    "descriptor": "msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx"
+  },
+  "createdOn": "2022-04-30T11:21:16.650Z",
+  "modifiedBy": {
+    "displayName": "Colombia 4.0",
+    "url": "https://spsprodcus5.vssps.visualstudio.com/A83f42fae-64e2-454e-9521-648075b4db5f/_apis/Identities/47841efa-8005-6a7b-abfc-38b44ab90eb1",
+    "_links": {
+      "avatar": {
+        "href": "https://dev.azure.com/colombia40/_apis/GraphProfile/MemberAvatars/msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx"
+      }
+    },
+    "id": "47841efa-8005-6a7b-abfc-38b44ab90eb1",
+    "uniqueName": "eventopraxis@outlook.com",
+    "imageUrl": "https://dev.azure.com/colombia40/_apis/GraphProfile/MemberAvatars/msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx",
+    "descriptor": "msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx"
+  },
+  "modifiedOn": "2022-04-30T12:54:28.757Z",
+  "isDeleted": false,
+  "lastRelease": {
+    "id": 14,
+    "name": "Release-9",
+    "artifacts": [],
+    "_links": {},
+    "description": "Triggered by Repository: Microsoft.VisualStudio.Services.ReleaseManagement.Server.Plugins.Model.GitRepository, Branch: refs/heads/main, Commit Id: 13.",
+    "releaseDefinition": { "id": 2, "projectReference": null, "_links": {} },
+    "createdOn": "2022-04-30T14:43:05.480Z",
+    "createdBy": {
+      "displayName": "Colombia 4.0",
+      "url": "https://spsprodcus5.vssps.visualstudio.com/A83f42fae-64e2-454e-9521-648075b4db5f/_apis/Identities/47841efa-8005-6a7b-abfc-38b44ab90eb1",
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/colombia40/_apis/GraphProfile/MemberAvatars/msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx"
+        }
+      },
+      "id": "47841efa-8005-6a7b-abfc-38b44ab90eb1",
+      "uniqueName": "eventopraxis@outlook.com",
+      "imageUrl": "https://dev.azure.com/colombia40/_apis/GraphProfile/MemberAvatars/msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx",
+      "descriptor": "msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx"
+    }
+  },
+  "variables": {},
+  "variableGroups": [],
+  "environments": [
+    {
+      "id": 2,
+      "name": "Stage 2",
+      "rank": 1,
+      "owner": {
+        "displayName": "Colombia 4.0",
+        "url": "https://spsprodcus5.vssps.visualstudio.com/A83f42fae-64e2-454e-9521-648075b4db5f/_apis/Identities/47841efa-8005-6a7b-abfc-38b44ab90eb1",
+        "_links": {
+          "avatar": {
+            "href": "https://dev.azure.com/colombia40/_apis/GraphProfile/MemberAvatars/msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx"
+          }
+        },
+        "id": "47841efa-8005-6a7b-abfc-38b44ab90eb1",
+        "uniqueName": "eventopraxis@outlook.com",
+        "imageUrl": "https://dev.azure.com/colombia40/_apis/GraphProfile/MemberAvatars/msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx",
+        "descriptor": "msa.NDc4NDFlZmEtODAwNS03YTdiLWFiZmMtMzhiNDRhYjkwZWIx"
+      },
+      "variables": {},
+      "variableGroups": [],
+      "preDeployApprovals": {
+        "approvals": [
+          { "rank": 1, "isAutomated": true, "isNotificationOn": false, "id": 4 }
+        ],
+        "approvalOptions": {
+          "requiredApproverCount": null,
+          "releaseCreatorCanBeApprover": false,
+          "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+          "enforceIdentityRevalidation": false,
+          "timeoutInMinutes": 0,
+          "executionOrder": 1
+        }
+      },
+      "deployStep": { "id": 5 },
+      "postDeployApprovals": {
+        "approvals": [
+          { "rank": 1, "isAutomated": true, "isNotificationOn": false, "id": 6 }
+        ],
+        "approvalOptions": {
+          "requiredApproverCount": null,
+          "releaseCreatorCanBeApprover": false,
+          "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+          "enforceIdentityRevalidation": false,
+          "timeoutInMinutes": 0,
+          "executionOrder": 2
+        }
+      },
+      "deployPhases": [
+        {
+          "deploymentInput": {
+            "parallelExecution": { "parallelExecutionType": 0 },
+            "agentSpecification": null,
+            "skipArtifactsDownload": false,
+            "artifactsDownloadInput": { "downloadInputs": [] },
+            "queueId": 13,
+            "demands": [],
+            "enableAccessToken": false,
+            "timeoutInMinutes": 0,
+            "jobCancelTimeoutInMinutes": 1,
+            "condition": "succeeded()",
+            "overrideInputs": {}
+          },
+          "rank": 1,
+          "phaseType": 1,
+          "name": "Agent job",
+          "refName": null,
+          "workflowTasks": [
+            {
+              "environment": {},
+              "taskId": "cbc316a2-586f-4def-be79-488a1f503564",
+              "version": "0.*",
+              "name": "kubectl apply",
+              "refName": "",
+              "enabled": true,
+              "alwaysRun": false,
+              "continueOnError": false,
+              "timeoutInMinutes": 0,
+              "retryCountOnTaskFailure": 0,
+              "definitionType": null,
+              "overrideInputs": {},
+              "condition": "succeeded()",
+              "inputs": {
+                "kubernetesServiceEndpoint": "d1eb8e1a-9ad7-45c7-a5d5-afdfc73b5502",
+                "namespace": "movie-analyst",
+                "command": "apply",
+                "useConfigurationFile": "true",
+                "configuration": "$(System.DefaultWorkingDirectory)/_movie-analyst-infra/k8s",
+                "arguments": "",
+                "secretType": "dockerRegistry",
+                "secretArguments": "",
+                "containerRegistryType": "Azure Container Registry",
+                "dockerRegistryEndpoint": "",
+                "azureSubscriptionEndpoint": "",
+                "azureContainerRegistry": "",
+                "secretName": "",
+                "forceUpdate": "true",
+                "configMapName": "",
+                "forceUpdateConfigMap": "false",
+                "useConfigMapFile": "false",
+                "configMapFile": "",
+                "configMapArguments": "",
+                "versionOrLocation": "version",
+                "versionSpec": "1.7.0",
+                "checkLatest": "false",
+                "specifyLocation": "",
+                "cwd": "$(System.DefaultWorkingDirectory)",
+                "outputFormat": "json",
+                "kubectlOutput": ""
+              }
+            }
+          ]
+        }
+      ],
+      "environmentOptions": {
+        "emailNotificationType": "OnlyOnFailure",
+        "emailRecipients": "release.environment.owner;release.creator",
+        "skipArtifactsDownload": false,
+        "timeoutInMinutes": 0,
+        "enableAccessToken": false,
+        "publishDeploymentStatus": true,
+        "badgeEnabled": false,
+        "autoLinkWorkItems": false,
+        "pullRequestDeploymentEnabled": false
+      },
+      "demands": [],
+      "conditions": [
+        { "name": "ReleaseStarted", "conditionType": 1, "value": "" }
+      ],
+      "executionPolicy": { "concurrencyCount": 1, "queueDepthCount": 0 },
+      "schedules": [],
+      "currentRelease": {
+        "id": 14,
+        "url": "https://vsrm.dev.azure.com/colombia40/699c2def-58ab-4f12-8d43-65f4c7646398/_apis/Release/releases/14",
+        "_links": {}
+      },
+      "retentionPolicy": {
+        "daysToKeep": 30,
+        "releasesToKeep": 3,
+        "retainBuild": true
+      },
+      "processParameters": {},
+      "properties": {
+        "BoardsEnvironmentType": {
+          "$type": "System.String",
+          "$value": "unmapped"
+        },
+        "LinkBoardsWorkItems": { "$type": "System.String", "$value": "False" }
+      },
+      "preDeploymentGates": { "id": 0, "gatesOptions": null, "gates": [] },
+      "postDeploymentGates": { "id": 0, "gatesOptions": null, "gates": [] },
+      "environmentTriggers": [],
+      "badgeUrl": "https://vsrm.dev.azure.com/colombia40/_apis/public/Release/badge/699c2def-58ab-4f12-8d43-65f4c7646398/2/2"
+    }
+  ],
+  "artifacts": [
+    {
+      "sourceId": "699c2def-58ab-4f12-8d43-65f4c7646398:c9b8e2ca-da28-4396-a884-ad1821d58912",
+      "type": "Git",
+      "alias": "_movie-analyst-infra",
+      "definitionReference": {
+        "branches": { "id": "main", "name": "main" },
+        "checkoutNestedSubmodules": {
+          "id": "True",
+          "name": "Any nested submodules within"
+        },
+        "checkoutSubmodules": { "id": "", "name": "" },
+        "defaultVersionSpecific": { "id": "", "name": "" },
+        "defaultVersionType": {
+          "id": "latestFromBranchType",
+          "name": "Latest from the default branch"
+        },
+        "definition": {
+          "id": "c9b8e2ca-da28-4396-a884-ad1821d58912",
+          "name": "movie-analyst-infra"
+        },
+        "fetchDepth": { "id": "", "name": "" },
+        "gitLfsSupport": { "id": "", "name": "" },
+        "project": {
+          "id": "699c2def-58ab-4f12-8d43-65f4c7646398",
+          "name": "movie-analyst"
+        }
+      },
+      "isPrimary": true,
+      "isRetained": false
+    }
+  ],
+  "triggers": [
+    {
+      "branchFilters": ["main"],
+      "alias": "_movie-analyst-infra",
+      "triggerType": 3
+    }
+  ],
+  "releaseNameFormat": "Release-$(rev:r)",
+  "tags": [],
+  "properties": {
+    "DefinitionCreationSource": {
+      "$type": "System.String",
+      "$value": "ReleaseNew"
+    },
+    "IntegrateBoardsWorkItems": { "$type": "System.String", "$value": "False" },
+    "IntegrateJiraWorkItems": { "$type": "System.String", "$value": "false" }
+  },
+  "id": 2,
+  "name": "Deploy to staging",
+  "path": "\\",
+  "projectReference": null,
+  "url": "https://vsrm.dev.azure.com/colombia40/699c2def-58ab-4f12-8d43-65f4c7646398/_apis/Release/definitions/2",
+  "_links": {
+    "self": {
+      "href": "https://vsrm.dev.azure.com/colombia40/699c2def-58ab-4f12-8d43-65f4c7646398/_apis/Release/definitions/2"
+    },
+    "web": {
+      "href": "https://dev.azure.com/colombia40/699c2def-58ab-4f12-8d43-65f4c7646398/_release?definitionId=2"
+    }
+  }
+}
