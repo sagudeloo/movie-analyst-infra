@@ -5,16 +5,13 @@ metadata:
     apps: movie-analyst-ui 
   name: movie-analyst-ui
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: movie-analyst-ui
       component: frontend
   strategy:
-    rollingUpdate:
-      maxSurge: 50%
-      maxUnavailable: 50%
-    type: RollingUpdate
+    type: Recreate
   template:
     metadata:
       labels:
@@ -26,7 +23,7 @@ spec:
         env:
           - name: BACK_HOST
             value: movie-api-cluster-ip
-        image: sgilz/rampup-ui:latest
+        image: sagudeloo/movie-analyst-ui:latest
         imagePullPolicy: Always
         resources:
           limits:
@@ -36,6 +33,6 @@ spec:
             memory: "100Mi"
             cpu: "100m"
         ports:
-        - containerPort: 3030
+        - containerPort: 80
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
