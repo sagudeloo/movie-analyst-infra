@@ -5,9 +5,9 @@ metadata:
     component: api-cluster-ip
   name: movie-api-cluster-ip
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     component: backend
   ports:
-  - port: 3000
-    targetPort: 3000
+  - port: 80
+    targetPort: 80

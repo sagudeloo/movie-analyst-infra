@@ -10,7 +10,8 @@ metadata:
     name: alb-service
 spec:
   rules:
-  - http:
+  - host: movie-analyst.local
+    http:
       paths:
       - pathType: Prefix
         path: /?(.*)
@@ -18,12 +19,12 @@ spec:
           service:
             name: movie-ui-cluster-ip
             port: 
-              number: 3030
+              number: 80
       - pathType: Prefix
         path: /api/?(.*)
         backend:
           service:
             name: movie-api-cluster-ip
             port: 
-              number: 3000
+              number: 80
 

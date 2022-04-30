@@ -11,10 +11,7 @@ spec:
       app: movie-analyst-api
       component: backend
   strategy:
-    rollingUpdate:
-      maxSurge: 50%
-      maxUnavailable: 50%
-    type: RollingUpdate
+    type: Recreate
   template:
     metadata:
       labels:
@@ -33,6 +30,6 @@ spec:
             memory: "100Mi"
             cpu: "100m"
         ports:
-        - containerPort: 3000
+        - containerPort: 80
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
