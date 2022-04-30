@@ -1,0 +1,29 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: alb-service
+  annotations:
+    kubernetes.io/ingress.class: 'nginx'
+    nginx.ingress.kubernetes.io/use-regex: 'true'
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+  labels:
+    name: alb-service
+spec:
+  rules:
+  - http:
+      paths:
+      - pathType: Prefix
+        path: /?(.*)
+        backend:
+          service:
+            name: movie-ui-cluster-ip
+            port: 
+              number: 3030
+      - pathType: Prefix
+        path: /api/?(.*)
+        backend:
+          service:
+            name: movie-api-cluster-ip
+            port: 
+              number: 3000
+
